@@ -45,22 +45,22 @@ h3 {
 
 /* Diamond */
 #diamond-narrow {
-	width: 0;
-	height: 0;
-	border: 50px solid transparent;
-	border-bottom: 70px solid red;
-	position: relative;
-	top: -50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom: 70px solid red;
+  position: relative;
+  top: -50px;
 }
 
 #diamond-narrow:after {
-	content: '';
-	position: absolute;
-	left: -50px; top: 70px;
-	width: 0;
-	height: 0;
-	border: 50px solid transparent;
-	border-top: 70px solid red;
+  content: '';
+  position: absolute;
+  left: -50px; top: 70px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top: 70px solid red;
 }
 
 /* Ace */
@@ -77,5 +77,16 @@ h3 {
     background-color: white;
 }
 
-
-
+/* King */
+#king {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    left: 210px;
+    top: 150px;
+    z-index: 1;
+    background-color: white;
+}
